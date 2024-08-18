@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md Khabbab Hossen">
+    <title>Weather Dashboard</title>
+    <!-- css style sheet added -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- link fabicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+</head>
+
+<body class="text-ploy bg-gray-400 md:bg-k-bg bg-no-repeat pb-20 bg-cover bg-left-bottom text-white font-k-font">
+    <!-- header section start -->
+    <header class="p-5 flex flex-col md:flex-row gap-5 justify-between items-center">
+        <div class="">
+            <a href="#" class="flex gap-3 items-center">
+                <img src="./images/logo.png" alt="logo" class="w-14">
+                <div class="font-bold">
+                    <p><span class="text-blue-600">W</span>eather</p>
+                    <p>Dashboar<span class="text-blue-600">d</span></p>
+                </div>
+            </a>
+        </div>
+        <div class="bg-gray-600 rounded-lg py-2 px-5">
+            <input type="text" value="Search Location" class="bg-transparent">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <!-- header section end -->
+    <section class="flex flex-col md:flex-row justify-end items-center">
+        <div
+            class="w-full md:w-3/5 bg-gray-600 opacity-70 rounded-xl p-12 md:mr-20 mr-0 flex flex-col md:flex-row gap-5 justify-between mt-10">
+            <div class="w-full md:w-1/2">
+                <i class="fa-solid fa-cloud-sun text-3xl"></i>
+                <h1 class="text-9xl -mt-10">25<sup>o</sup></h1>
+                <div class="flex items-center gap-5 text-5xl my-5">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Anekal</h2>
+                </div>
+                <p class="text-xl">9:41 AM - Tuesday, January 23, 2024</p>
+            </div>
+            <div class="w-full md:w-1/2 space-y-10 text-xl pt-10">
+                <h3 class="font-bold">THE CLIMATE IS <span class="underline">MIST</span></h3>
+                <!-- ------temp max start------- -->
+                <div class="flex justify-between">
+                    <p>Temp max</p>
+                    <div class="flex gap-2 items-center">
+                        <p>25.93<sup>o</sup></p>
+                        <i class="fa-solid fa-temperature-quarter"></i>
+                    </div>
+                </div>
+                <!-- ------temp max end------- -->
+                <!-- ------temp min start------- -->
+                <div class="flex justify-between">
+                    <p>Temp min</p>
+                    <div class="flex gap-2 items-center">
+                        <p>22.07<sup>o</sup></p>
+                        <i class="fa-solid fa-temperature-quarter"></i>
+                    </div>
+                </div>
+                <!-- -----temp min end-------- -->
+                <!-- -----Humadity start-------- -->
+                <div class="flex justify-between">
+                    <p>Humadity</p>
+                    <div class="flex gap-2 items-center">
+                        <p>51%</p>
+                        <i class="fa-solid fa-droplet"></i>
+                    </div>
+                </div>
+                <!-- -----Humadity end-------- -->
+                <!-- -----Cloudy start-------- -->
+                <div class="flex justify-between">
+                    <p>Cloudy</p>
+                    <div class="flex gap-2 items-center">
+                        <p>2%</p>
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                </div>
+                <!-- ----Cloudy end--------- -->
+                <!-- -----Wind start-------- -->
+                <div class="flex justify-between">
+                    <p>Wind</p>
+                    <div class="flex gap-2 items-center">
+                        <p>3.6km/h</p>
+                        <i class="fa-solid fa-wind"></i>
+                    </div>
+                </div>
+                <!-- ----Wind end--------- -->
+            </div>
+        </div>
+    </section>
+    <!-- fontawesome added -->
+    <script src="https://kit.fontawesome.com/bc02ba23a8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
